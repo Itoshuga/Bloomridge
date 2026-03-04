@@ -1,0 +1,16 @@
+{
+    "name": "topdown-mmo",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "pnpm -r dev",
+        "dev:client": "pnpm --filter client dev",
+        "dev:server": "pnpm --filter server dev"
+    },
+    "keywords": [],
+    "author": "Itoshuga",
+    "license": "ISC",
+    "packageManager": "pnpm@10.30.3"
+}
